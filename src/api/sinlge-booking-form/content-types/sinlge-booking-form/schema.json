@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_forms",
+  "info": {
+    "singularName": "sinlge-booking-form",
+    "pluralName": "booking-forms",
+    "displayName": "booking-form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "biginteger"
+    },
+    "data": {
+      "type": "date"
+    },
+    "time": {
+      "type": "time"
+    }
+  }
+}
